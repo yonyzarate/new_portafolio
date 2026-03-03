@@ -1,4 +1,15 @@
-body {
-  font-family: "Poppins", sans-serif;
-  /* background-color: red; */
+/* ESTILOS GENERALES  */
+:root {
+  --color-principal: #ffffff;
+  --color-secundary: #04b4e0;
+
+  --color-background: #f4f7f9;
+  --color-transparent: transparent;
+
+  --color-icons: #b5b6b7;
+  --color-titles: #222222;
+  --color-subtitle: #888;
+  --color-text: #555;
 }
+
+/* ESTRUCTURA PRICIPAL */
