@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
     <!-- Estilos -->
     <link
       rel="stylesheet"
@@ -12,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
     <title>Portafolio - Yony Zarate Paco</title>
   </head>
   <body>
@@ -103,6 +107,12 @@
           </footer>
         </section>
       </aside>
+
+      <!-- Menu responsive -->
+      <div class="layout__menu--toggle">
+        <i class="menu-toggle__icon fa-solid fa-bars"></i>
+        <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+      </div>
 
       <!-- Contenido Principal -->
       <main class="layout__content">
@@ -234,5 +244,7 @@
         </section>
       </main>
     </div>
+    <!-- Script JS -->
+    <script src="assets/js/menu.js" defer></script>
   </body>
 </html>
